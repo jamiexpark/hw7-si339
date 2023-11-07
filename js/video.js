@@ -37,9 +37,9 @@ document.querySelector("#pause").addEventListener("click", function() {
 
 
 document.querySelector("#skip").addEventListener("click", function() {
-	if (video.currentTime+15<=video.duration){
+	if (video.currentTime+10<=video.duration){
 		console.log("Original time stamp "+video.currentTime)
-		video.currentTime=video.currentTime+15
+		video.currentTime=video.currentTime+10
 		console.log("New location "+video.currentTime)
 	}
 	else{
